@@ -1,0 +1,11 @@
+{
+  "Pet": {
+    "id": "9223372036854760153",
+    "name": "Jimmy",
+    "photoUrls": {
+      "photoUrl": "string"
+    },
+    "status": "available",
+    "tags": ""
+  }
+}
