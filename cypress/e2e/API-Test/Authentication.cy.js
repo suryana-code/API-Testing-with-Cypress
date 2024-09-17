@@ -38,19 +38,4 @@ describe('Authentication', () => {
             });
         });
     });
-
-    const token = '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'
-    it('Bearer Token',() => {
-        cy.request({
-            method: 'GET',
-            url: 'https://api.github.com/user/repos',
-            headers: {
-                Authorization:'Bearer '+token
-            }
-        })
-        .then((response) => {
-            // Use cy.wrap() to wrap response and assert its properties
-            cy.wrap(response).its('status').should('eq', 200);
-        });
-    });
 });
