@@ -24,14 +24,19 @@ Testing by ensuring the response received from the API. What is tested?
 
 _If you encounter any difficulties, please give me feedback at msuryana45@gmail.com_
 
-
-## Requirement!
-1. Cypress 13.14.2
-2. ajv 8.17.1
-3. xml2js 0.6.2
-4. Mocha 10.7.3
+## Installation
+```
+npm install cypress
+```
+```
+npm install ajv
+```
+```
+npm install xml2js
+```
+```
+npm install --save-dev mocha
+```
 
 ## Test Report generated on terminal
-<a>
-<img src="https://github.com/suryana-code/API-Testing-with-Cypress/blob/main/apiService.png#:~:text=node_modules-,apiService,-.png?raw=true" width="800">
-</a>
+![Screenshot](https://private-user-images.githubusercontent.com/53417863/368826280-4b7c4532-96df-4113-b577-fe19817c7be4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY3MTU1ODcsIm5iZiI6MTcyNjcxNTI4NywicGF0aCI6Ii81MzQxNzg2My8zNjg4MjYyODAtNGI3YzQ1MzItOTZkZi00MTEzLWI1NzctZmUxOTgxN2M3YmU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTE5VDAzMDgwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYyZjg3NmNkYWI2MzI5N2IwMjhhMGJiNDlhZmVjZGRlMGU0NzhhNzNhNmMwMzY1MmRiZmYxNTA1ZmNkNjc0ZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9zIW9wdiTuWdRXF1O9MQ7JQ3GEOdNcKqKqu0iDz3GNg)
