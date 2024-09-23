@@ -26,7 +26,7 @@ _If you encounter any difficulties, please give me feedback at msuryana45@gmail.
 
 ## Installation
 ```
-npm install cypress
+npm install cypress --save-dev
 ```
 ```
 npm install ajv
@@ -36,6 +36,16 @@ npm install xml2js
 ```
 ```
 npm install --save-dev mocha
+```
+
+## How To Run?
+Run the Cypress Tests in headmode
+```
+npx cypress open
+```
+or, if you want to run headless mode testing
+```
+npx cypress run --spec cypress/e2e/api-test/apiService.cy.js
 ```
 
 ## Test Report generated on terminal
